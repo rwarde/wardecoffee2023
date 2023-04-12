@@ -1,0 +1,45 @@
+@charset "UTF-80";
+
+#container {
+    display: flex;                           /*This is how we get the box squished and narrow. Like a nav bar*/
+    height: 200px;
+    flex-direction: column;                /*This puts the text into a box in colum.*/
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid red;
+    font size: 50px;
+}
+/*flex-direction: row;                  This is the same as display: flex; */
+    /*flex-direction: row-reverse;          This is putting the row on the opposite side of the page*/
+     /*flex-wrap: nowrap;                    The defult*/
+    /*flex-wrap: wrap-reverse;*/
+.box1 {
+    background-color: red;
+    width: 200px;
+}
+
+.box2 {
+    background-color: orange;
+    width: 200px;
+}
+
+.box3 {
+    background-color: yellow;
+    width: 200px;
+}
+
+.box4 {
+    background-color: lightgreen;
+    width: 200px;
+}
+
+.box5 {
+    background-color: lightblue;
+    width: 200px;
+}
+
+.box6 {
+    background-color: plum;
+    width: 200px;
+}
